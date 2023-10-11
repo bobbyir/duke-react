@@ -1,0 +1,20 @@
+{
+  "name": "eslint_sample",
+  "version": "1.0.0",
+  "description": "Sample package.json for eslint",
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "react-bootstrap": "^2.9.0",
+    "react-bootstrap-icons": "^1.10.3"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js .",
+    "lint-fix": "eslint --fix --ext .js ."
+  },
+  "private": true
+}
