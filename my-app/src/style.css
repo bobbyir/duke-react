@@ -1,0 +1,29 @@
+.image-container {
+  position: relative;
+  width: 100%;
+
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  padding: 10px;
+  color: white;
+
+}
+
+.btn
+{
+  border-color: white;
+  color: white;
+  border-radius: 0;
+}
+.custom-btn {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+.bi
+{
+  font-size: 35px;
+}
